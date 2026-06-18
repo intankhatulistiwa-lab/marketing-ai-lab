@@ -1,30 +1,40 @@
 # Marketing AI Lab 🧠
 
-A modular marketing AI toolkit built for SEA go-to-market teams.
-Each agent is designed to automate a specific marketing research or analysis task,
-so teams can make faster, better-informed decisions without manual grunt work.
+A modular marketing AI toolkit built for SEA go-to-market teams.  
+Each agent automates a specific marketing research or analysis task — so teams make faster, better-informed decisions without manual grunt work.
 
 ---
 
-## Current Agents
+## Agents
 
-### 🔍 Competitor Intelligence Agent
-Multi-agent system for automated competitor research and analysis.
+### 🔍 Agent 01 — Competitor Intelligence System
+> Automates end-to-end competitor research: from raw web data to strategic synthesis.
 
-- **Architecture:** 16 agents across 3 layers — data extraction (9), strategy analysis (5), synthesis (2)
-- **Stack:** Python, OpenRouter, Qwen3
-- **What it does:** Autonomously scrapes competitor websites, analyzes positioning, pricing, and content strategy, then synthesizes findings into a structured report
-- **Repo:** Private (available on request)
+| Layer | Agents | What they do |
+|---|---|---|
+| Data Extraction | 9 agents | Scrape website, pricing, blog, jobs, social |
+| Strategy Analysis | 5 agents | Analyze positioning, messaging, SEO, ICP signals |
+| Synthesis | 2 agents | Consolidate findings into structured report |
+
+**Stack:** Python · OpenRouter · Qwen3 · BeautifulSoup  
+**Input:** Competitor URL  
+**Output:** JSON report with positioning, pricing, content, and strategic gaps  
+**Repo:** Private — architecture and sample output available on request
 
 ---
 
 ## Roadmap
-More agents in development. Planned areas:
-- [ ] Growth experiment tracker
-- [ ] ICP research agent
-- [ ] Content gap analyzer
+
+## Roadmap
+
+- [x] Agent 01 — Competitor Intelligence System
+- [ ] Agent 02 — Outreach Agent
+- [ ] Agent 03 — Content Strategist Agent
+- [ ] Agent 04 — Growth Experiment
 
 ---
 
 ## About
-Built by [Intan Khatulistiwa](https://www.linkedin.com/in/intankhatulistiwa/) — growth marketer and consultant focused on SEA markets.
+
+Built by [Intan Khatulistiwa](https://www.linkedin.com/in/intankhatulistiwa/) — growth marketer and consultant focused on SEA go-to-market strategy.  
+All agents built hands-on: architecture design, Python implementation, GitHub deployment.
